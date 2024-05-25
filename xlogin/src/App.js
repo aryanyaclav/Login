@@ -36,9 +36,9 @@ function App() {
   return (
     <div>
       <h2> Login Page</h2>
-      {loggedIn ? ("Welcome , user") : 
+      {loggedIn ? ("Welcome, user") : 
        (validated ? formUi : <div>
-        <h4>Invalid useranme or password</h4>
+        <h4>Invalid username or password</h4>
         {formUi}
        </div>)
       }
